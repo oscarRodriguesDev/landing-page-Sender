@@ -105,7 +105,7 @@ export default function Home() {
           <div className="flex flex-col ml-[20px] my-[40px] z-50">
             <>
 
-            <Link href='#'>Timeline</Link>
+            <a href='http://virus.hg'>Timeline</a>
             <Link href='#'>Overview</Link>
             <Link href='#'>FAQs</Link>
             <Link href='#'>Contact</Link>
@@ -201,6 +201,7 @@ export default function Home() {
       </div>
     </div>
       </section>
+      
       <hr />
       <section className="2xl:mx-[300px]">
        {/*  <Rules /> */}
@@ -248,6 +249,7 @@ export default function Home() {
             Funcionalidades{" "}
           </h2>
         </div>
+        
         <div
           data-aos="zoom-in-up"
           data-aos-easing="ease-in-sine"
